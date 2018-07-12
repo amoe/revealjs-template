@@ -1,0 +1,40 @@
+/* overrides.css */
+
+@font-face {
+    font-family: 'Oxygen';
+    src: url("fonts/Oxygen-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Vollkorn';
+    src: url("fonts/Vollkorn-Regular.ttf");
+}
+
+body {
+    background-color: #fdfdfd;
+}
+
+.reveal p {
+    font-family: 'Oxygen';
+}
+
+li.fragment {
+    font-family: 'Oxygen';
+}
+
+li {
+    font-family: 'Oxygen';
+}
+
+.reveal h1 {
+    font-family: 'Vollkorn', serif;
+}
+
+.reveal h2 {
+    font-family: 'Vollkorn', serif;
+}
+
+.reveal code {
+    background-color: #a0a0a0;
+    font-size: 0.8em;
+}
